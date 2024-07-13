@@ -5,7 +5,7 @@ var menu = document.getElementById("menu");
 menuButton.onclick = function () {
   if (sideNav.style.right == "-250px") {
     sideNav.style.right = "0";
-    menu.src = "/images/closee.png";
+    menu.src = "/images/s.png";
   } else {
     sideNav.style.right = "-250px";
     menu.src = "images/main-menu.png";
